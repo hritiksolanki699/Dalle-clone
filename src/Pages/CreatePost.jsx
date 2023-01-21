@@ -30,7 +30,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://dalle-2-0-backend.vercel.app/api/v1/dalle",
+          "https://dalle-2-0-backend-zctr.vercel.app/api/v1/dalle",
           {
             method: "POST",
             headers: {
@@ -61,7 +61,7 @@ const CreatePost = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          "https://dalle-2-0-backend.vercel.app/api/v1/post",
+          "https://dalle-2-0-backend-zctr.vercel.app/api/v1/post",
           {
             method: "POST",
             headers: {
